@@ -12,6 +12,7 @@ import { SimpleComponent } from './simple/simple.component';
 import { WizardComponent } from './wizard/wizard.component';
 import { FormsComponent } from './forms/forms.component';
 import { FORMS } from './forms.index';
+import { ManagerComponent } from './manager/manager.component';
 
 @NgModule({
   imports: [
@@ -32,7 +33,8 @@ import { FORMS } from './forms.index';
     RendererComponent,
     SimpleComponent,
     WizardComponent,
-    FormsComponent
+    FormsComponent,
+    ManagerComponent
   ],
   bootstrap: [
     FormsComponent

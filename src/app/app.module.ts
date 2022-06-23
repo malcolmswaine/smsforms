@@ -37,7 +37,8 @@ import { DataComponent } from './data/data.component';
     RouterModule.forRoot([
       {
         path: '',
-        component: HomeComponent
+        redirectTo: 'forms',
+        pathMatch: 'full'
       },
       {
         path: 'data',

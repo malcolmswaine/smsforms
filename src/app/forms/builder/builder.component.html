@@ -1,6 +1,6 @@
-<h3>Dynamic JSON Form Builder</h3>
+<!-- <h3>Dynamic JSON Form Builder</h3>
 <p>The Form.io form builder interface allows you to embed a form builder within your application, which generates a JSON schema of the form created.</p>
-<p><a href="https://github.com/formio/angular-formio/wiki/Form-Builder" class="btn btn-primary" target="_blank"><span class="fa fa-book"></span> Builder Documentation</a></p>
+<p><a href="https://github.com/formio/angular-formio/wiki/Form-Builder" class="btn btn-primary" target="_blank"><span class="fa fa-book"></span> Builder Documentation</a></p> -->
 <!-- <strong>builder.html</strong>
 <pre class="text-center"><code class="language-markup">&lt;form-builder [form]="form" (change)="onChange($event)"&gt;&lt;/form-builder&gt;</code></pre>
 <strong>builder.ts</strong>
@@ -17,11 +17,12 @@ export class BuilderComponent &#123;
 &#125;</code></pre> -->
 <form-builder [form]="form" (change)="onChange($event)"></form-builder>
 <hr/>
-<h3 class="text-center text-muted">As JSON Schema</h3>
+<!-- <h3 class="text-center text-muted">As JSON Schema</h3>
 <div class="well jsonviewer">
   <pre id="json"><code class="language-json" #json></code></pre>
-</div>
+</div> -->
 <h3 class="text-center text-muted">As Rendered Form</h3>
 <div class="well jsonviewer">
   <formio [form]="form" [refresh]="refreshForm"></formio>
 </div>
+<pre id="json" style="visibility: hidden; height: 0;"><code class="language-json" #json></code></pre>
